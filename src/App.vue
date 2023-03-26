@@ -2,6 +2,8 @@
 
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
+import AppMainLink from "./components/AppMainLinks.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   data() {
@@ -13,6 +15,8 @@ export default {
   components: {
     AppHeader,
     AppMain,
+    AppMainLink,
+    AppFooter,
   }
 
 
@@ -24,6 +28,8 @@ export default {
   <div>
     <AppHeader></AppHeader>
     <AppMain></AppMain>
+    <AppMainLink></AppMainLink>
+    <AppFooter></AppFooter>
   </div>
 </template>
 
