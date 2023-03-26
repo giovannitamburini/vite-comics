@@ -78,7 +78,7 @@ export default {
 
 <style lang="scss" scoped>
 #footer-background {
-    height: 300px;
+    height: 250px;
     background-image: url('/img/footer-bg.jpg');
     background-size: cover;
 
@@ -104,19 +104,18 @@ export default {
                 ul {
                     padding: 1em 0;
                     color: #959595;
+                    font-size: 0.8em;
                 }
             }
         }
 
         #footer-logo {
             height: 100%;
-            width: 400px;
+            width: 350px;
             background-image: url('/img/dc-logo-bg.png');
-            background-size: 400px;
+            background-size: 350px;
             background-position: center;
         }
     }
-
-
 }
 </style>
