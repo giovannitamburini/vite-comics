@@ -2,17 +2,20 @@
 
 <template>
     <div id="main-container">
-        <main>
-            <div> --( Content goes here )-- </div>
-        </main>
+        <div id="main-background">
+            <img src="/img/jumbotron.jpg" alt="">
+        </div>
     </div>
 </template>
 
-<style>
-main {
-    margin: 0 auto;
-    padding: 30px 0;
-    width: 1000px;
-    color: white;
+<style lang="scss" scoped>
+#main-background {
+    height: 280px;
+    overflow-y: hidden;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
 }
 </style>
