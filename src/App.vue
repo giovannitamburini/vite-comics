@@ -20,8 +20,6 @@ export default {
     AppFooter,
     AppSignUp
   }
-
-
 };
 
 </script>

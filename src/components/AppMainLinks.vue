@@ -33,10 +33,10 @@ export default {
 <template>
     <div id="container-main-links">
         <div id="main-links">
-            <div v-for="link in mainLinks" class="link">
+            <a v-for="link in mainLinks" href="" class="link">
                 <img :src="link.imageLink" alt="">
                 <div>{{ link.nameLink }}</div>
-            </div>
+            </a>
         </div>
     </div>
 </template>
@@ -60,12 +60,18 @@ export default {
             display: flex;
             align-items: center;
             gap: 10px;
+            text-decoration: none;
             color: white;
 
             img {
                 height: 32px;
             }
+
+            &:last-child img {
+                height: 25px;
+            }
         }
+
     }
 }
 </style>

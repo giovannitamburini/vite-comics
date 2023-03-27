@@ -81,10 +81,11 @@ export default {
     height: 250px;
     background-image: url('/img/footer-bg.jpg');
     background-size: cover;
+    background-position: center;
 
     #footer-container {
         height: 100%;
-        width: 1000px;
+        max-width: 1000px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
